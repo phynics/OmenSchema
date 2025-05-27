@@ -1,0 +1,26 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/phynics/OmenSchema/raw/main/weapon.schema.json",
+    "title": "Weapon",
+    "description": "PF2RPG Weapon",
+    "oneOf": [
+        {
+            "type": "string",
+            "enum": [
+                "simple",
+                "martial",
+                "advanced",
+                "unarmed"
+            ]
+        },
+        {
+            "type": "object",
+            "properties": {
+                "other": {
+                    "type": "string"
+                }
+            },
+            "required": ["other"]
+        }
+    ]
+} 

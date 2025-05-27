@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/phynics/OmenSchema/raw/main/character-class.schema.json",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "rarity": {
+      "$ref": "utility-types/rarity.schema.json"
+    },
+    "description": {
+      "type": "string"
+    },
+    "keyAttribute": {
+      "oneOf": [
+        {
+          "$ref": "utility-types/attribute.schema.json"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "utility-types/attribute.schema.json"
+          }
+        }
+      ]
+    },
+    "hitPoints": {
+      "type": "integer",
+      "minimum": 6,
+      "maximum": 12
+    },
+    "gainsFeatAtFirstLevel": {
+      "type": "boolean",  
+      "default": true
+    },
+    "armorProficiency": {
+      "type": "array",
+      "items": {
+        "$ref": "utility-types/armor-proficiency.schema.json"
+      }
+    },
+    "weaponProficiency": {
+      "type": "array",
+      "items": {
+        "$ref": "utility-types/weapon-proficiency.schema.json"
+      }
+    },
+    "savingThrowProficiency": {
+      "type": "array",
+      "items": {
+        "$ref": "utility-types/saving-throw-proficiency.schema.json"
+      }
+    },
+    "additionalSkillCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "grantedSkills": {
+      "type": "array",
+      "items": {
+        "$ref": "utility-types/skill.schema.json"
+      }
+    },
+    "electiveSkills": {
+      "type": "object",
+      "properties": {
+        "choose": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "from": {
+          "type": "array",
+          "items": {
+            "$ref": "utility-types/skill.schema.json"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "keyAttribute",
+    "hitPoints",
+    "armorProficiency",
+    "weaponProficiency",
+    "savingThrowProficiency",
+    "additionalSkillCount"
+  ]
+}

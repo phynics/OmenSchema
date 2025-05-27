@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/phynics/OmenSchema/raw/main/saving-throw.schema.json",
+    "title": "Saving Throw",
+    "description": "PF2RPG Saving Throw",
+    "type": "string",
+    "enum": [
+        "fortitude",
+        "reflex",
+        "will",
+        "perception"
+    ]
+} 

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/phynics/OmenSchema/raw/main/rarity.schema.json",
+  "title": "Rarity",
+  "description": "PF2RPG Rarity",
+  "type": "string",
+  "enum": [
+    "common",
+    "uncommon",
+    "rare",
+    "unique"
+  ],
+  "default": "common"
+}
