@@ -6,6 +6,9 @@
     "name": {
       "type": "string"
     },
+    "source": {
+      "$ref": "utility-types/content-source.schema.json"
+    },
     "rarity": {
       "$ref": "utility-types/rarity.schema.json"
     },
@@ -80,6 +83,7 @@
   },
   "required": [
     "name",
+    "source",
     "description",
     "keyAttribute",
     "hitPoints",
