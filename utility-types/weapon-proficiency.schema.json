@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/weapon-proficiency.schema.json",
+    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/weapon-proficiency.schema.json",
     "title": "Weapon Proficiency",
     "description": "PF2RPG Weapon Proficiency",
     "type": "object",

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/skill.schema.json",
+    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/skill.schema.json",
     "title": "Skill",
     "description": "PF2RPG Skill",
     "oneOf": [

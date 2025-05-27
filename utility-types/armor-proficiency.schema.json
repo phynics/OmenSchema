@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/armor-proficiency.schema.json",
+    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/armor-proficiency.schema.json",
     "title": "Armor Proficiency",
     "description": "PF2RPG Armor Proficiency",
     "type": "object",

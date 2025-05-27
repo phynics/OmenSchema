@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/content-source.schema.json",
+    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/content-source.schema.json",
     "title": "Content Source",
-    "description": "Describes the source of the content",
+    "description": "Source of the content",
     "type": "object",
     "properties": {
         "publisher": {
@@ -24,7 +24,7 @@
             "description": "URL where the content can be found (for third-party content)"
         }
     },
-    "required": ["book"],
+    "required": ["book", "page"],
     "additionalProperties": false
 }
   

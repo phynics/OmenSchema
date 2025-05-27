@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/phynics/OmenSchema/raw/main/rarity.schema.json",
+  "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/rarity.schema.json",
   "title": "Rarity",
   "description": "PF2RPG Rarity",
   "type": "string",
@@ -8,7 +8,8 @@
     "common",
     "uncommon",
     "rare",
-    "unique"
+    "epic",
+    "legendary"
   ],
   "default": "common"
 }

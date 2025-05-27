@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/saving-throw-proficiency.schema.json",
+    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/saving-throw-proficiency.schema.json",
     "title": "Saving Throw Proficiency",
     "description": "PF2RPG Saving Throw Proficiency",
     "type": "object",
