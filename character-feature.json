@@ -21,12 +21,6 @@
       "maximum": 20,
       "description": "Level of the character feature"
     },
-    "rarity": {
-      "type": "string",
-      "enum": ["common", "uncommon", "rare", "epic", "legendary"],
-      "description": "Rarity of the character feature",
-      "nullable": true
-    },
     "traits": {
       "type": "array",
       "items": {
