@@ -32,7 +32,7 @@
             "type": "string",
             "description": "Result when the action is critically successful"
         },
-        "successResult": {
+        "success": {
             "type": "string",
             "description": "Result when the action is successful"
         },
