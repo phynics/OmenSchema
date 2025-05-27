@@ -38,16 +38,10 @@
       "default": true
     },
     "armorProficiency": {
-      "type": "array",
-      "items": {
-        "$ref": "utility-types/armor-proficiency.schema.json"
-      }
+      "$ref": "utility-types/proficiency-block.schema.json"
     },
     "weaponProficiency": {
-      "type": "array",
-      "items": {
-        "$ref": "utility-types/weapon-proficiency.schema.json"
-      }
+      "$ref": "utility-types/proficiency-block.schema.json"
     },
     "savingThrowProficiency": {
       "type": "array",
@@ -60,10 +54,7 @@
       "minimum": 0
     },
     "grantedSkills": {
-      "type": "array",
-      "items": {
-        "$ref": "utility-types/skill.schema.json"
-      }
+      "$ref": "utility-types/proficiency-block.schema.json"
     },
     "electiveSkills": {
       "type": "object",
