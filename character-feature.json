@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/phynics/OmenSchema/raw/main/character-feature.schema.json",
+  "title": "Character Feature",
+  "description": "Schema for a character feature in the game",
+  "type": "object",
+  "required": [
+    "name",
+    "level",
+    "traits",
+    "description"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the character feature"
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Level of the character feature"
+    },
+    "rarity": {
+      "type": "string",
+      "enum": ["common", "uncommon", "rare", "epic", "legendary"],
+      "description": "Rarity of the character feature",
+      "nullable": true
+    },
+    "traits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of traits associated with this feature",
+      "default": []
+    },
+    "action": {
+      "$ref": "action-primitive.schema.json"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the character feature"
+    }
+  }
+} 
