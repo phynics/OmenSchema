@@ -4,12 +4,6 @@
   "title": "Character Feature",
   "description": "Schema for a character feature in the game",
   "type": "object",
-  "required": [
-    "name",
-    "level",
-    "traits",
-    "description"
-  ],
   "properties": {
     "name": {
       "type": "string",
@@ -30,11 +24,12 @@
       "default": []
     },
     "action": {
-      "$ref": "action-primitive.schema.json"
+      "$ref": "utility-types/action-primitive.schema.json"
     },
     "description": {
       "type": "string",
       "description": "Description of the character feature"
     }
-  }
+  },
+  "required": ["name", "description"]
 } 
