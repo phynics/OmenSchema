@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/phynics/OmenSchema/raw/main/character-feature.schema.json",
+  "$id": "https://raw.githubusercontent.com/phynics/OmenSchema/refs/heads/main/character-feature.schema.json",
   "title": "Character Feature",
   "description": "Schema for a character feature in the game",
   "type": "object",

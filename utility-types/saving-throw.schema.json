@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/saving-throw.schema.json",
+    "$id": "https://raw.githubusercontent.com/phynics/OmenSchema/refs/heads/main/utility-types/saving-throw.schema.json",
     "title": "Saving Throw",
     "description": "PF2RPG Saving Throw",
     "type": "string",

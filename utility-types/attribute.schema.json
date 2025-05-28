@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/attribute.schema.json",
+    "$id": "https://raw.githubusercontent.com/phynics/OmenSchema/refs/heads/main/utility-types/attribute.schema.json",
     "title": "Attribute",
     "description": "PF2RPG Attribute",
     "type": "string",

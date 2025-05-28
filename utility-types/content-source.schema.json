@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/content-source.schema.json",
+    "$id": "https://raw.githubusercontent.com/phynics/OmenSchema/refs/heads/main/utility-types/content-source.schema.json",
     "title": "Content Source",
     "description": "Source of the content",
     "type": "object",

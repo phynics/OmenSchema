@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/phynics/OmenSchema/raw/main/utility-types/action-primitive.schema.json",
+    "$id": "https://raw.githubusercontent.com/phynics/OmenSchema/refs/heads/main/utility-types/action-primitive.schema.json",
     "title": "Action Primitive",
     "description": "Schema for defining an action in the game",
     "type": "object",

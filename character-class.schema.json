@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/phynics/OmenSchema/raw/main/character-class.schema.json",
+  "$id": "https://raw.githubusercontent.com/phynics/OmenSchema/refs/heads/main/character-class.schema.json",
   "type": "object",
   "properties": {
     "name": {
