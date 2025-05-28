@@ -18,5 +18,5 @@
             "$ref": "proficiency-rank.schema.json"
         }
     },
-    "required": ["proficiency", "savingThrow"]
+    "required": ["fortitude", "reflex", "will", "perception"]
 } 
