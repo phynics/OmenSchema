@@ -10,6 +10,9 @@ This repository contains JSON Schema definitions, hopefully to create easily par
 
 ### Main Schema
 - `character-class.schema.json`: Defines the structure for character classes, including required attributes, proficiencies, and skills.
+- `character-action.schema.json`: Defines character actions, including traits, descriptions, and action mechanics.
+- `character-feat.schema.json`: Defines character feats, including type (general/ancestry/class), level requirements, and prerequisites.
+- `character-heritage.schema.json`: Defines character heritages, including ancestry associations and rarity.
 
 #### Proficiency Types
 - `proficiency-rank.schema.json`: Defines proficiency ranks (untrained, trained, expert, master, legendary)
@@ -25,3 +28,4 @@ This repository contains JSON Schema definitions, hopefully to create easily par
 - `rarity.schema.json`: Defines rarity levels (common, uncommon, rare, unique)
 - `skill.schema.json`: Defines skills and lore categories
 - `saving-throw.schema.json`: Defines saving throw types
+- `action-primitive.schema.json`: Defines the base structure for actions, including triggers, requirements, and outcomes
