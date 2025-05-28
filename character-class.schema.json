@@ -44,17 +44,18 @@
       "$ref": "utility-types/proficiency-block.schema.json"
     },
     "savingThrowProficiency": {
-      "type": "array",
-      "items": {
-        "$ref": "utility-types/saving-throw-proficiency.schema.json"
-      }
+      "$ref": "utility-types/saving-throw-proficiency.schema.json"
     },
     "additionalSkillCount": {
       "type": "integer",
       "minimum": 0
     },
     "grantedSkills": {
-      "$ref": "utility-types/proficiency-block.schema.json"
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
     },
     "electiveSkills": {
       "type": "object",
