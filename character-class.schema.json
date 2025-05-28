@@ -53,7 +53,7 @@
     "grantedSkills": {
       "type": "array",
       "items": {
-        "type": "string"
+        "$ref": "utility-types/skill.schema.json"
       },
       "default": []
     },
