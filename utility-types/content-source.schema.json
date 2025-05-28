@@ -24,7 +24,7 @@
             "description": "URL where the content can be found (for third-party content)"
         }
     },
-    "required": ["book", "page"],
+    "required": ["book"],
     "additionalProperties": false
 }
   
